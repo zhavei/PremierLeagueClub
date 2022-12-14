@@ -1,4 +1,4 @@
-package com.syafei.premierleagueclub.ui
+package com.syafei.premierleagueclub.ui.maincomponent
 
 import androidx.compose.material.BottomNavigation
 import androidx.compose.material.BottomNavigationItem
@@ -14,6 +14,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.navigation.NavGraph.Companion.findStartDestination
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.currentBackStackEntryAsState
+import com.syafei.premierleagueclub.ui.route.ScreenRoute
 
 @Composable
 fun MainBottomBar(

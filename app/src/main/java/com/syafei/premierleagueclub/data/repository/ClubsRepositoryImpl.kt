@@ -57,6 +57,7 @@ class ClubsRepositoryImpl @Inject constructor(
         val capacity = context.resources.getStringArray(R.array.capacity).map { it.toInt() }
         val league = context.resources.getStringArray(R.array.league)
         val description = context.resources.getStringArray(R.array.description)
+        val backgroundLogoUrl = context.resources.getStringArray(R.array.background_logo_url)
 
 
         val clubsList = arrayListOf<ClubsModel>()
@@ -71,7 +72,8 @@ class ClubsRepositoryImpl @Inject constructor(
                     ground = ground[i],
                     capacity = capacity[i],
                     league = league[i],
-                    description = description[i]
+                    description = description[i],
+                    backgroundLogoUrl = backgroundLogoUrl[i]
                 )
             )
         }

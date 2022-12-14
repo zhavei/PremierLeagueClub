@@ -5,14 +5,17 @@ import androidx.compose.material.Scaffold
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.graphics.BlendMode.Companion.Screen
 import androidx.compose.ui.graphics.Color
-import androidx.navigation.NavController
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
+import androidx.navigation.compose.composable
 import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
 import com.google.accompanist.systemuicontroller.rememberSystemUiController
+import com.syafei.premierleagueclub.ui.home.HomeScreen
+import com.syafei.premierleagueclub.ui.maincomponent.MainBottomBar
+import com.syafei.premierleagueclub.ui.maincomponent.MainTopBar
+import com.syafei.premierleagueclub.ui.route.ScreenRoute
 
 @Composable
 fun PremierLeagueClubApp(
@@ -42,7 +45,12 @@ fun PremierLeagueClubApp(
             startDestination = ScreenRoute.Home.route,
             modifier = Modifier.padding(innerPadding)
         ) {
-            TODO("trakir disini")
+            composable(ScreenRoute.Home.route) {
+                HomeScreen(onClicked = {
+                    navController.navigate(ScreenRoute.DetailClub.createRoute(it))
+                    TODO("trakir masih di sini")
+                })
+            }
         }
 
     }

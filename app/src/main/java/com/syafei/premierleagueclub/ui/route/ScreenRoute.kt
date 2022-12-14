@@ -1,4 +1,4 @@
-package com.syafei.premierleagueclub.ui
+package com.syafei.premierleagueclub.ui.route
 
 sealed class ScreenRoute(val route: String) {
     object Home : ScreenRoute("home")

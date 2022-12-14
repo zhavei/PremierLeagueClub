@@ -1,5 +1,6 @@
 <resources>
     <string name="app_name">PremierLeagueClub</string>
+    <string name="empty">No Premier League Club</string>
 
     <string-array name="club_name">
         <item>Kawaii dake ja Nai Shikimori-san</item>
@@ -25,6 +26,19 @@
         <item>https://cdn.myanimelist.net/images/anime/1695/111486.jpg</item>
         <item>https://cdn.myanimelist.net/images/anime/1441/122795.jpg</item>
         <item>https://cdn.myanimelist.net/images/anime/1795/95088.jpg</item>
+    </string-array>
+
+    <string-array name="background_logo_url">
+        <item>https://t3.ftcdn.net/jpg/02/48/65/38/360_F_248653851_lMw1RUwPLpaBsSCT31eE3ZDY8WkIFpiq.jpg</item>
+        <item>https://t3.ftcdn.net/jpg/02/48/65/38/360_F_248653851_lMw1RUwPLpaBsSCT31eE3ZDY8WkIFpiq.jpg</item>
+        <item>https://t3.ftcdn.net/jpg/02/48/65/38/360_F_248653851_lMw1RUwPLpaBsSCT31eE3ZDY8WkIFpiq.jpg</item>
+        <item>https://t3.ftcdn.net/jpg/02/48/65/38/360_F_248653851_lMw1RUwPLpaBsSCT31eE3ZDY8WkIFpiq.jpg</item>
+        <item>https://t3.ftcdn.net/jpg/02/48/65/38/360_F_248653851_lMw1RUwPLpaBsSCT31eE3ZDY8WkIFpiq.jpg</item>
+        <item>https://t3.ftcdn.net/jpg/02/48/65/38/360_F_248653851_lMw1RUwPLpaBsSCT31eE3ZDY8WkIFpiq.jpg</item>
+        <item>https://t3.ftcdn.net/jpg/02/48/65/38/360_F_248653851_lMw1RUwPLpaBsSCT31eE3ZDY8WkIFpiq.jpg</item>
+        <item>https://t3.ftcdn.net/jpg/02/48/65/38/360_F_248653851_lMw1RUwPLpaBsSCT31eE3ZDY8WkIFpiq.jpg</item>
+        <item>https://t3.ftcdn.net/jpg/02/48/65/38/360_F_248653851_lMw1RUwPLpaBsSCT31eE3ZDY8WkIFpiq.jpg</item>
+        <item>https://t3.ftcdn.net/jpg/02/48/65/38/360_F_248653851_lMw1RUwPLpaBsSCT31eE3ZDY8WkIFpiq.jpg</item>
     </string-array>
 
     <string-array name="nick_name">

@@ -1,4 +1,4 @@
-package com.syafei.premierleagueclub.ui
+package com.syafei.premierleagueclub.ui.maincomponent
 
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material.Text

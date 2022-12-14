@@ -18,6 +18,7 @@ data class ClubsModel(
     val capacity: Int,
     val league: String,
     val description: String,
-    var isFavorite: Boolean = false
+    var isFavorite: Boolean = false,
+    val backgroundLogoUrl: String,
 
-) : Parcelable
+    ) : Parcelable
