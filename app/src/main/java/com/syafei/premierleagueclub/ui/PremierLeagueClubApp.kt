@@ -26,7 +26,7 @@ fun PremierLeagueClubApp(
     val navBackStackEntry by navController.currentBackStackEntryAsState()
     val currentRoute = navBackStackEntry?.destination?.route
     val systemUiController = rememberSystemUiController()
-    systemUiController.setStatusBarColor(Color.Transparent)
+    systemUiController.setStatusBarColor(Color.DarkGray)
 
     Scaffold(
         topBar = {

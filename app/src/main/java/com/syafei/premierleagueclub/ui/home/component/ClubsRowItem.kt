@@ -21,6 +21,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import coil.compose.AsyncImage
 import com.syafei.premierleagueclub.data.model.ClubsModel
+import com.syafei.premierleagueclub.ui.theme.PremierLeagueClubTheme
 
 @Composable
 fun ClubsRowItems(
@@ -45,44 +46,45 @@ fun ClubsRowItems(
                 contentScale = ContentScale.Crop,
                 modifier = Modifier.fillMaxWidth()
             )
-            AsyncImage(
-                model = logoUrl,
-                contentDescription = "logo",
-                contentScale = ContentScale.Crop,
-                modifier = Modifier
-                    .padding(top = 10.dp)
-                    .size(80.dp)
-                    .clip(CircleShape)
-                    .align(Alignment.Center)
-            )
+
 
             Column(
                 modifier = Modifier
                     .align(Alignment.BottomCenter)
                     .fillMaxWidth()
-                    .background(Color.Black.copy(alpha = 0.75f))
+                    .background(Color.Blue.copy(alpha = 0.35f))
                     .padding(8.dp)
             ) {
                 Text(
                     modifier = Modifier.align(CenterHorizontally),
                     text = clubName,
-                    style = MaterialTheme.typography.subtitle1.copy(
+                    style = MaterialTheme.typography.body1.copy(
                         color = Color.White
                     ),
-                    maxLines = 2,
+                    maxLines = 1,
                     overflow = TextOverflow.Ellipsis,
 
                     )
                 Text(
                     modifier = Modifier.align(CenterHorizontally),
                     text = ground,
-                    style = MaterialTheme.typography.h6.copy(
+                    style = MaterialTheme.typography.subtitle2.copy(
                         color = Color.White
                     ),
                     maxLines = 2,
                     overflow = TextOverflow.Ellipsis,
                 )
             }
+            AsyncImage(
+                model = logoUrl,
+                contentDescription = "logo",
+                contentScale = ContentScale.Crop,
+                modifier = Modifier
+                    .padding(bottom = 60.dp)
+                    .size(80.dp)
+                    .clip(CircleShape)
+                    .align(Alignment.BottomCenter)
+            )
         }
     }
 }
@@ -94,7 +96,7 @@ fun ClubsRowItems(
 @Composable
 fun RowItems() {
 
-    /*  PremierLeagueClubTheme {
+      PremierLeagueClubTheme {
           val previewItem = ClubsModel(
               clubName = "man United",
               logoUrl = "https://toppng.com/uploads/preview/manchester-united-emblem-manchester-united-logo-dream-league-soccer-2018-11562942624odllvif9gl.png",
@@ -110,41 +112,41 @@ fun RowItems() {
           ClubsRowItems(clubName = previewItem.clubName,
               ground = previewItem.ground,
               logoUrl = previewItem.logoUrl,
-              backgroundLogoUrl = previewItem.backgroundLogoUrl,)
-      }*/
+              backgroundLogoUrl = previewItem.backgroundLogoUrl, onClicked = {})
+      }
 
-    Column {
-        val previewItem = ClubsModel(
-            clubName = "man United",
-            logoUrl = "https://toppng.com/uploads/preview/manchester-united-emblem-manchester-united-logo-dream-league-soccer-2018-11562942624odllvif9gl.png",
-            nickName = "red Devils",
-            founded = 2022,
-            ground = "old traford",
-            capacity = 12330,
-            league = "premiere leauge",
-            description = "String",
-            backgroundLogoUrl = "https://1.bp.blogspot.com/-cZirkTPmvp0/YJ1T3-rOsKI/AAAAAAAAAac/X7xermnzVoUz-BqMiCJOJ3pKMcMZXETYQCLcBGAsYHQ/s512/MAN.png"
-        )
+/*Column {
+    val previewItem = ClubsModel(
+        clubName = "man United",
+        logoUrl = "https://toppng.com/uploads/preview/manchester-united-emblem-manchester-united-logo-dream-league-soccer-2018-11562942624odllvif9gl.png",
+        nickName = "red Devils",
+        founded = 2022,
+        ground = "old traford",
+        capacity = 12330,
+        league = "premiere leauge",
+        description = "String",
+        backgroundLogoUrl = "https://1.bp.blogspot.com/-cZirkTPmvp0/YJ1T3-rOsKI/AAAAAAAAAac/X7xermnzVoUz-BqMiCJOJ3pKMcMZXETYQCLcBGAsYHQ/s512/MAN.png"
+    )
 
-        //harusny gridlazy
-        LazyColumn(
-            modifier = Modifier.fillMaxSize(),
-            contentPadding = PaddingValues(8.dp),
-            verticalArrangement = Arrangement.spacedBy(8.dp)
-        ) {
+    //harusny gridlazy
+    LazyColumn(
+        modifier = Modifier.fillMaxSize(),
+        contentPadding = PaddingValues(8.dp),
+        verticalArrangement = Arrangement.spacedBy(8.dp)
+    ) {
 
-            for (i in 1..10) {
-                item {
-                    ClubsRowItems(
-                        clubName = previewItem.clubName,
-                        ground = previewItem.ground,
-                        logoUrl = previewItem.logoUrl,
-                        backgroundLogoUrl = previewItem.backgroundLogoUrl,
-                        onClicked = {}
-                    )
-                }
+        for (i in 1..10) {
+            item {
+                ClubsRowItems(
+                    clubName = previewItem.clubName,
+                    ground = previewItem.ground,
+                    logoUrl = previewItem.logoUrl,
+                    backgroundLogoUrl = previewItem.backgroundLogoUrl,
+                    onClicked = {}
+                )
             }
         }
     }
+}*/
 
 }

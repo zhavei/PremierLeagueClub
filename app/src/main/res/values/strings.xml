@@ -3,14 +3,14 @@
     <string name="empty">No Premier League Club</string>
 
     <string-array name="club_name">
-        <item>Kawaii dake ja Nai Shikimori-san</item>
-        <item>Chainsaw Man</item>
+        <item>Wolverhampton Wanderers</item>
+        <item>Bournemouth</item>
         <item>Bocchi the Rock!</item>
-        <item>Kage no Jitsuryokusha ni Naritakute!</item>
-        <item>Tokyo Revengers</item>
-        <item>Kaguya-sama wa Kokurasetai: Ultra Romantic</item>
+        <item>Brighton and Hove Albion</item>
+        <item>Tottenham Hotspur</item>
+        <item>Nottingham Forest</item>
         <item>Spy x Family Part 2</item>
-        <item>Horimiya</item>
+        <item>Chelsea</item>
         <item>Spy x Family</item>
         <item>Violet Evergarden</item>
     </string-array>
@@ -29,16 +29,16 @@
     </string-array>
 
     <string-array name="background_logo_url">
-        <item>https://t3.ftcdn.net/jpg/02/48/65/38/360_F_248653851_lMw1RUwPLpaBsSCT31eE3ZDY8WkIFpiq.jpg</item>
-        <item>https://t3.ftcdn.net/jpg/02/48/65/38/360_F_248653851_lMw1RUwPLpaBsSCT31eE3ZDY8WkIFpiq.jpg</item>
-        <item>https://t3.ftcdn.net/jpg/02/48/65/38/360_F_248653851_lMw1RUwPLpaBsSCT31eE3ZDY8WkIFpiq.jpg</item>
-        <item>https://t3.ftcdn.net/jpg/02/48/65/38/360_F_248653851_lMw1RUwPLpaBsSCT31eE3ZDY8WkIFpiq.jpg</item>
-        <item>https://t3.ftcdn.net/jpg/02/48/65/38/360_F_248653851_lMw1RUwPLpaBsSCT31eE3ZDY8WkIFpiq.jpg</item>
-        <item>https://t3.ftcdn.net/jpg/02/48/65/38/360_F_248653851_lMw1RUwPLpaBsSCT31eE3ZDY8WkIFpiq.jpg</item>
-        <item>https://t3.ftcdn.net/jpg/02/48/65/38/360_F_248653851_lMw1RUwPLpaBsSCT31eE3ZDY8WkIFpiq.jpg</item>
-        <item>https://t3.ftcdn.net/jpg/02/48/65/38/360_F_248653851_lMw1RUwPLpaBsSCT31eE3ZDY8WkIFpiq.jpg</item>
-        <item>https://t3.ftcdn.net/jpg/02/48/65/38/360_F_248653851_lMw1RUwPLpaBsSCT31eE3ZDY8WkIFpiq.jpg</item>
-        <item>https://t3.ftcdn.net/jpg/02/48/65/38/360_F_248653851_lMw1RUwPLpaBsSCT31eE3ZDY8WkIFpiq.jpg</item>
+        <item>https://www.si.com/.image/t_share/MTkyNDA2OTE3NDY3ODc0OTcz/imago1013681663h.jpg</item>
+        <item>https://www.si.com/.image/t_share/MTkyNDA2OTE3NDY3ODc0OTcz/imago1013681663h.jpg</item>
+        <item>https://www.si.com/.image/t_share/MTkyNDA2OTE3NDY3ODc0OTcz/imago1013681663h.jpg</item>
+        <item>https://www.si.com/.image/t_share/MTkyNDA2OTE3NDY3ODc0OTcz/imago1013681663h.jpg</item>
+        <item>https://www.si.com/.image/t_share/MTkyNDA2OTE3NDY3ODc0OTcz/imago1013681663h.jpg</item>
+        <item>https://www.si.com/.image/t_share/MTkyNDA2OTE3NDY3ODc0OTcz/imago1013681663h.jpg</item>
+        <item>https://www.si.com/.image/t_share/MTkyNDA2OTE3NDY3ODc0OTcz/imago1013681663h.jpg</item>
+        <item>https://www.si.com/.image/t_share/MTkyNDA2OTE3NDY3ODc0OTcz/imago1013681663h.jpg</item>
+        <item>https://www.si.com/.image/t_share/MTkyNDA2OTE3NDY3ODc0OTcz/imago1013681663h.jpg</item>
+        <item>https://www.si.com/.image/t_share/MTkyNDA2OTE3NDY3ODc0OTcz/imago1013681663h.jpg</item>
     </string-array>
 
     <string-array name="nick_name">

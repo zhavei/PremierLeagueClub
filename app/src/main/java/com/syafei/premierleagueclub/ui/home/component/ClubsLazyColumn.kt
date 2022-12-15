@@ -51,12 +51,12 @@ fun ClubsLazyColumn(
         } else {
             LazyVerticalGrid(
                 state = listState,
-                columns = GridCells.Adaptive(160.dp),
+                columns = GridCells.Adaptive(150.dp),
                 contentPadding = PaddingValues(
                     top = 0.dp,
-                    bottom = 120.dp,
-                    start = 16.dp,
-                    end = 16.dp
+                    bottom = 16.dp,
+                    start = 12.dp,
+                    end = 12.dp
                 ),
                 horizontalArrangement = Arrangement.spacedBy(16.dp),
                 verticalArrangement = Arrangement.spacedBy(16.dp),

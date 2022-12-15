@@ -1,9 +1,6 @@
 package com.syafei.premierleagueclub.ui.maincomponent
 
-import androidx.compose.material.BottomNavigation
-import androidx.compose.material.BottomNavigationItem
-import androidx.compose.material.Icon
-import androidx.compose.material.Text
+import androidx.compose.material.*
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Favorite
 import androidx.compose.material.icons.filled.Home
@@ -38,7 +35,8 @@ fun MainBottomBar(
 
     BottomNavigation(
         modifier = modifier,
-        backgroundColor = Color.Gray,
+        backgroundColor = MaterialTheme.colors.background,
+        contentColor = MaterialTheme.colors.primary
     ) {
         navigationItem.map { item ->
             BottomNavigationItem(
@@ -46,18 +44,19 @@ fun MainBottomBar(
                     Icon(
                         imageVector = item.icon,
                         contentDescription = item.title,
-                        tint = Color.White
+                        tint = Color.DarkGray
                     )
                 },
                 label =
                 {
                     Text(
                         item.title,
-                        color = Color.White
+                        color = Color.DarkGray
                     )
                 },
                 selected =
                 currentRoute == item.screenRoute.route,
+                unselectedContentColor = Color.White,
                 onClick = {
                     navController.navigate(item.screenRoute.route) {
                         popUpTo(navController.graph.findStartDestination().id) {
@@ -66,8 +65,7 @@ fun MainBottomBar(
                         restoreState = true
                         launchSingleTop = true
                     }
-                }
-
+                },
             )
         }
     }
