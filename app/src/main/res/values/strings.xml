@@ -1,9 +1,17 @@
 <resources>
-    <string name="app_name">PremierLeagueClub</string>
+    <string name="app_name">Premier League Club</string>
     <string name="empty">No Premier League Club</string>
 
+    <string name="about_developer">Muhamad Syafeie</string>
+    <string name="about_developer_email">zhavei.vei@gmail.com</string>
+    <string name="detail_club">Club Detail</string>
+    <string name="about">About Page</string>
+    <string name="about_photo_content">Profile photo</string>
+    <string name="favorite">Favorite</string>
+    <string name="back">Go Back</string>
+
     <string-array name="club_name">
-        <item>Wolverhampton Wanderers</item>
+        <item>Manchester United</item>
         <item>Bournemouth</item>
         <item>Bocchi the Rock!</item>
         <item>Brighton and Hove Albion</item>
@@ -16,8 +24,8 @@
     </string-array>
 
     <string-array name="logo_url">
-        <item>https://cdn.myanimelist.net/images/anime/1995/121695.jpg</item>
-        <item>https://cdn.myanimelist.net/images/anime/1806/126216.jpg</item>
+        <item>https://w7.pngwing.com/pngs/480/26/png-transparent-manchester-united-f-c-old-trafford-glory-glory-association-football-manager-football-text-sport-logo.png</item>
+        <item>https://upload.wikimedia.org/wikipedia/en/thumb/e/e5/AFC_Bournemouth_%282013%29.svg/1200px-AFC_Bournemouth_%282013%29.svg.png</item>
         <item>https://cdn.myanimelist.net/images/anime/1448/127956.jpg</item>
         <item>https://cdn.myanimelist.net/images/anime/1874/121869.jpg</item>
         <item>https://cdn.myanimelist.net/images/anime/1839/122012.jpg</item>
@@ -42,7 +50,7 @@
     </string-array>
 
     <string-array name="nick_name">
-        <item>Spring 2022</item>
+        <item>Red Devils</item>
         <item>Fall 2022</item>
         <item>Fall 2022</item>
         <item>Fall 2022</item>
@@ -68,7 +76,7 @@
     </string-array>
 
     <string-array name="ground">
-        <item>Emirates Stadium</item>
+        <item>Old Trafford</item>
         <item>Emirates Stadium</item>
         <item>Emirates Stadium</item>
         <item>Emirates Stadium</item>

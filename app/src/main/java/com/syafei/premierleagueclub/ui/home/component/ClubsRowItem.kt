@@ -34,7 +34,7 @@ fun ClubsRowItems(
 ) {
 
     Card(
-        border = BorderStroke(2.dp, MaterialTheme.colors.onSurface.copy(alpha = 0.5f)),
+        border = BorderStroke(5.dp, MaterialTheme.colors.background.copy(alpha = 0.2f)),
         modifier = modifier.fillMaxSize()
     ) {
         Box(
@@ -52,8 +52,8 @@ fun ClubsRowItems(
                 modifier = Modifier
                     .align(Alignment.BottomCenter)
                     .fillMaxWidth()
-                    .background(Color.Blue.copy(alpha = 0.35f))
-                    .padding(8.dp)
+                    .background(Color.Black.copy(alpha = 0.50f))
+                    .padding(9.dp)
             ) {
                 Text(
                     modifier = Modifier.align(CenterHorizontally),
@@ -81,8 +81,7 @@ fun ClubsRowItems(
                 contentScale = ContentScale.Crop,
                 modifier = Modifier
                     .padding(bottom = 60.dp)
-                    .size(80.dp)
-                    .clip(CircleShape)
+                    .size(80.dp).size(height = 9.dp, width = 9.dp)
                     .align(Alignment.BottomCenter)
             )
         }

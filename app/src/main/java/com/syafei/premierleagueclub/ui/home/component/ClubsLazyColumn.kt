@@ -55,11 +55,11 @@ fun ClubsLazyColumn(
                 contentPadding = PaddingValues(
                     top = 0.dp,
                     bottom = 16.dp,
-                    start = 12.dp,
-                    end = 12.dp
+                    start = 8.dp,
+                    end = 8.dp
                 ),
-                horizontalArrangement = Arrangement.spacedBy(16.dp),
-                verticalArrangement = Arrangement.spacedBy(16.dp),
+                horizontalArrangement = Arrangement.spacedBy(8.dp),
+                verticalArrangement = Arrangement.spacedBy(8.dp),
             ) {
 
                 items(clubNameList) { data: ClubsModel ->
@@ -81,7 +81,7 @@ fun ClubsLazyColumn(
                 enter = fadeIn() + slideInVertically(),
                 exit = fadeOut() + slideOutVertically(),
                 modifier = Modifier
-                    .padding(bottom = 30.dp)
+                    .padding(bottom = 20.dp)
                     .align(Alignment.BottomCenter)
             ) {
                 ScrollToTopButton(onClick = {

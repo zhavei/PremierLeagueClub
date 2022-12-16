@@ -44,19 +44,19 @@ fun MainBottomBar(
                     Icon(
                         imageVector = item.icon,
                         contentDescription = item.title,
-                        tint = Color.DarkGray
+                        tint = Color.White
                     )
                 },
                 label =
                 {
                     Text(
                         item.title,
-                        color = Color.DarkGray
+                        color = Color.White
                     )
                 },
                 selected =
                 currentRoute == item.screenRoute.route,
-                unselectedContentColor = Color.White,
+                unselectedContentColor = Color.Black,
                 onClick = {
                     navController.navigate(item.screenRoute.route) {
                         popUpTo(navController.graph.findStartDestination().id) {
