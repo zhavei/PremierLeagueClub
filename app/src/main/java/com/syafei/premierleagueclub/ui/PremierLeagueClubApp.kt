@@ -63,6 +63,7 @@ fun PremierLeagueClubApp(
                         }) {
                             Icon(
                                 imageVector = Icons.Default.Person,
+                                tint = Color.White,
                                 contentDescription = stringResource(
                                     R.string.about
                                 )

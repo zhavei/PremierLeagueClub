@@ -11,32 +11,63 @@
     <string name="back">Go Back</string>
 
     <string-array name="club_name">
-        <item>Manchester United</item>
-        <item>Bournemouth</item>
-        <item>Bocchi the Rock!</item>
+        <item>AFC Bournemouth</item>
+        <item>Arsenal</item>
+        <item>Aston Villa</item>
+        <item>Brentford</item>
         <item>Brighton and Hove Albion</item>
-        <item>Tottenham Hotspur</item>
-        <item>Nottingham Forest</item>
-        <item>Spy x Family Part 2</item>
         <item>Chelsea</item>
-        <item>Spy x Family</item>
-        <item>Violet Evergarden</item>
+        <item>Crystal Palace</item>
+        <item>Everton</item>
+        <item>Fulham</item>
+        <item>Leeds United</item>
+        <item>AFC Bournemouth</item>
+        <item>Arsenal</item>
+        <item>Aston Villa</item>
+        <item>Brentford</item>
+        <item>Brighton and Hove Albion</item>
+        <item>Chelsea</item>
+        <item>Crystal Palace</item>
+        <item>Everton</item>
+        <item>Fulham</item>
+        <item>Leeds United</item>
     </string-array>
 
     <string-array name="logo_url">
-        <item>https://w7.pngwing.com/pngs/480/26/png-transparent-manchester-united-f-c-old-trafford-glory-glory-association-football-manager-football-text-sport-logo.png</item>
-        <item>https://upload.wikimedia.org/wikipedia/en/thumb/e/e5/AFC_Bournemouth_%282013%29.svg/1200px-AFC_Bournemouth_%282013%29.svg.png</item>
-        <item>https://cdn.myanimelist.net/images/anime/1448/127956.jpg</item>
-        <item>https://cdn.myanimelist.net/images/anime/1874/121869.jpg</item>
-        <item>https://cdn.myanimelist.net/images/anime/1839/122012.jpg</item>
-        <item>https://cdn.myanimelist.net/images/anime/1160/122627.jpg</item>
-        <item>https://cdn.myanimelist.net/images/anime/1111/127508.jpg</item>
-        <item>https://cdn.myanimelist.net/images/anime/1695/111486.jpg</item>
-        <item>https://cdn.myanimelist.net/images/anime/1441/122795.jpg</item>
-        <item>https://cdn.myanimelist.net/images/anime/1795/95088.jpg</item>
+        <item>https://live.staticflickr.com/65535/52569327324_8997502eb6_w.jpg</item>
+        <item>https://live.staticflickr.com/65535/52569494120_39288c051f.jpg</item>
+        <item>https://live.staticflickr.com/65535/52569494185_ef338309bd_w.jpg</item>
+        <item>https://live.staticflickr.com/65535/52569576583_549f9172ba_w.jpg</item>
+        <item>https://live.staticflickr.com/65535/52569576593_599a069a14_w.jpg</item>
+        <item>https://live.staticflickr.com/65535/52569327444_577e6432ce_w.jpg</item>
+        <item>https://live.staticflickr.com/65535/52569050316_ec7eb06124_n.jpg</item>
+        <item>https://live.staticflickr.com/65535/52569327304_1d630b6624_n.jpg</item>
+        <item>https://live.staticflickr.com/65535/52569576403_cf2cd5f5d5_n.jpg</item>
+        <item>https://live.staticflickr.com/65535/52568587947_4a66a29e75_n.jpg</item>
+        <item>https://live.staticflickr.com/65535/52569327324_8997502eb6_w.jpg</item>
+        <item>https://live.staticflickr.com/65535/52569494120_39288c051f.jpg</item>
+        <item>https://live.staticflickr.com/65535/52569494185_ef338309bd_w.jpg</item>
+        <item>https://live.staticflickr.com/65535/52569576583_549f9172ba_w.jpg</item>
+        <item>https://live.staticflickr.com/65535/52569576593_599a069a14_w.jpg</item>
+        <item>https://live.staticflickr.com/65535/52569327444_577e6432ce_w.jpg</item>
+        <item>https://live.staticflickr.com/65535/52569050316_ec7eb06124_n.jpg</item>
+        <item>https://live.staticflickr.com/65535/52569327304_1d630b6624_n.jpg</item>
+        <item>https://live.staticflickr.com/65535/52569576403_cf2cd5f5d5_n.jpg</item>
+        <item>https://live.staticflickr.com/65535/52568587947_4a66a29e75_n.jpg</item>
     </string-array>
 
     <string-array name="background_logo_url">
+        <item>https://live.staticflickr.com/65535/52569099151_df3bc3f341_w.jpg</item>
+        <item>https://live.staticflickr.com/65535/52569377649_f9307fdeee_z.jpg</item>
+        <item>https://live.staticflickr.com/65535/52569099196_7b3279cf28_n.jpg</item>
+        <item>https://live.staticflickr.com/65535/52569099231_d08b757441_w.jpg</item>
+        <item>https://live.staticflickr.com/65535/52569545310_935027ee8b_w.jpg</item>
+        <item>https://live.staticflickr.com/65535/52569545340_bb9c436678_z.jpg</item>
+        <item>https://live.staticflickr.com/65535/52569377459_d92a294df3_w.jpg</item>
+        <item>https://live.staticflickr.com/65535/52569377499_396585de3e.jpg</item>
+        <item>https://live.staticflickr.com/65535/52569377539_87ac68aa96_n.jpg</item>
+        <item>https://live.staticflickr.com/65535/52569626853_e9b8128849_w.jpg</item>
+
         <item>https://www.si.com/.image/t_share/MTkyNDA2OTE3NDY3ODc0OTcz/imago1013681663h.jpg</item>
         <item>https://www.si.com/.image/t_share/MTkyNDA2OTE3NDY3ODc0OTcz/imago1013681663h.jpg</item>
         <item>https://www.si.com/.image/t_share/MTkyNDA2OTE3NDY3ODc0OTcz/imago1013681663h.jpg</item>
@@ -60,6 +91,16 @@
         <item>Winter 2021</item>
         <item>Spring 2022</item>
         <item>Winter 2018</item>
+        <item>Red Devils</item>
+        <item>Fall 2022</item>
+        <item>Fall 2022</item>
+        <item>Fall 2022</item>
+        <item>Spring 2021</item>
+        <item>Spring 2022</item>
+        <item>Fall 2022</item>
+        <item>Winter 2021</item>
+        <item>Spring 2022</item>
+        <item>Winter 2018</item>
     </string-array>
 
     <string-array name="founded">
@@ -73,10 +114,30 @@
         <item>3143</item>
         <item>4445</item>
         <item>5459</item>
+        <item>4255</item>
+        <item>2555</item>
+        <item>4550</item>
+        <item>8852</item>
+        <item>5153</item>
+        <item>3555</item>
+        <item>4441</item>
+        <item>3143</item>
+        <item>4445</item>
+        <item>5459</item>
     </string-array>
 
     <string-array name="ground">
-        <item>Old Trafford</item>
+        <item>Vitality Stadium</item>
+        <item>Emirates Stadium</item>
+        <item>Villa Park</item>
+        <item>Gtech Community Stadium</item>
+        <item>Amex Stadium</item>
+        <item>Stamford Bridge</item>
+        <item>Selhurst Park</item>
+        <item>Goodison Park</item>
+        <item>Craven Cottage</item>
+        <item>Elland Road</item>
+        <item>Vitality Stadium</item>
         <item>Emirates Stadium</item>
         <item>Emirates Stadium</item>
         <item>Emirates Stadium</item>
@@ -89,6 +150,16 @@
     </string-array>
 
     <string-array name="capacity">
+        <item>42055</item>
+        <item>25454</item>
+        <item>40554</item>
+        <item>88452</item>
+        <item>51413</item>
+        <item>34141</item>
+        <item>84141</item>
+        <item>34413</item>
+        <item>41415</item>
+        <item>51179</item>
         <item>42055</item>
         <item>25454</item>
         <item>40554</item>
@@ -112,9 +183,29 @@
         <item>Premier League</item>
         <item>Premier League</item>
         <item>Premier League</item>
+        <item>Premier League</item>
+        <item>Premier League</item>
+        <item>Premier League</item>
+        <item>Premier League</item>
+        <item>Premier League</item>
+        <item>Premier League</item>
+        <item>Premier League</item>
+        <item>Premier League</item>
+        <item>Premier League</item>
+        <item>Premier League</item>
     </string-array>
 
     <string-array name="description">
+        <item>Yuu Izumi leads a high school life filled with one mishap after another. No matter how improbable the situation, unfortunate events strike him at every turn. In possession of such terrible luck, Izumi enters his second year with a single wish in mind—to spend more time with his affectionate girlfriend, Micchon Shikimori.</item>
+        <item>Denji is robbed of a normal teenage life, left with nothing but his deadbeat father\'s overwhelming debt. His only companion is his pet, the chainsaw devil Pochita, with whom he slays devils for money that inevitably ends up in the yakuza\'s pockets. All Denji can do is dream of a good, simple life: one with delicious food and a beautiful girlfriend by his side. But an act of greedy betrayal by the yakuza leads to Denji\'s brutal, untimely death, crushing all hope of him ever achieving happiness.</item>
+        <item>Yearning to make friends and perform live with a band, lonely and socially anxious Hitori "Bocchi" Gotou devotes her time to playing the guitar. On a fateful day, Bocchi meets the outgoing drummer Nijika Ijichi, who invites her to join Kessoku Band when their guitarist, Ikuyo Kita, flees before their first show. Soon after, Bocchi meets her final bandmate—the cool bassist Ryou Yamada.</item>
+        <item>For as long as he can remember, Minoru Kagenou has been fixated on becoming as strong as possible, which has led him to undertake all kinds of rigorous training. This wish, however, does not stem from a desire to be recognized by others; rather, Minoru does everything he can to blend in with the crowd. So, while pretending to be a completely average student during the day, he arms himself with a crowbar and ruthlessly thrashes local biker gangs at night. Yet when Minoru finds himself in a truck accident, his ambitions seemingly come to a sudden end. In his final moments, he laments his powerlessness—no matter how much he trained, there was nothing he could do to overcome his human limitations.</item>
+        <item>Takemichi Hanagaki\'s second year of middle school was the highest point in his life. He had respect, a gang of friends he could count on, and even a girlfriend. But that was twelve years ago. Today, he\'s a nobody: a washed-up nonentity made fun of by children and always forced to apologize to his younger boss. A sudden news report on the Tokyo Manji Gang\'s cruel murder of the only girlfriend he ever had alongside her brother only adds insult to injury. Half a second before a train ends his pitiful life for good, Takemichi flashes back to that same day 12 years ago, when he was still dating Hinata Tachibana.</item>
+        <item>The elite members of Shuchiin Academy\'s student council continue their competitive day-to-day antics. Council president Miyuki Shirogane clashes daily against vice-president Kaguya Shinomiya, each fighting tooth and nail to trick the other into confessing their romantic love. Kaguya struggles within the strict confines of her wealthy, uptight family, rebelling against her cold default demeanor as she warms to Shirogane and the rest of her friends.</item>
+        <item>With Anya Forger successfully enrolled at the renowned Eden Academy, Operation Strix advances to its second phase. To investigate Ostanian politician Donovan Desmond, Anya must either befriend his son Damian or collect eight Stella Stars to become an Imperial Scholar. Fortunately, Anya has already acquired her first star. In celebration, her adoptive father, Loid, decides to fulfill her wish to adopt a dog.</item>
+        <item>On the surface, the thought of Kyouko Hori and Izumi Miyamura getting along would be the last thing in people\'s minds. After all, Hori has a perfect combination of beauty and brains, while Miyamura appears meek and distant to his fellow classmates. However, a fateful meeting between the two lays both of their hidden selves bare. Even though she is popular at school, Hori has little time to socialize with her friends due to housework. On the other hand, Miyamura lives under the noses of his peers, his body bearing secret tattoos and piercings that make him look like a gentle delinquent.</item>
+        <item>Corrupt politicians, frenzied nationalists, and other warmongering forces constantly jeopardize the thin veneer of peace between neighboring countries Ostania and Westalis. In spite of their plots, renowned spy and master of disguise "Twilight" fulfills dangerous missions one after another in the hope that no child will have to experience the horrors of war.</item>
+        <item>The Great War finally came to an end after four long years of conflict; fractured in two, the continent of Telesis slowly began to flourish once again. Caught up in the bloodshed was Violet Evergarden, a young girl raised for the sole purpose of decimating enemy lines. Hospitalized and maimed in a bloody skirmish during the War\'s final leg, she was left with only words from the person she held dearest, but with no understanding of their meaning.</item>
         <item>Yuu Izumi leads a high school life filled with one mishap after another. No matter how improbable the situation, unfortunate events strike him at every turn. In possession of such terrible luck, Izumi enters his second year with a single wish in mind—to spend more time with his affectionate girlfriend, Micchon Shikimori.</item>
         <item>Denji is robbed of a normal teenage life, left with nothing but his deadbeat father\'s overwhelming debt. His only companion is his pet, the chainsaw devil Pochita, with whom he slays devils for money that inevitably ends up in the yakuza\'s pockets. All Denji can do is dream of a good, simple life: one with delicious food and a beautiful girlfriend by his side. But an act of greedy betrayal by the yakuza leads to Denji\'s brutal, untimely death, crushing all hope of him ever achieving happiness.</item>
         <item>Yearning to make friends and perform live with a band, lonely and socially anxious Hitori "Bocchi" Gotou devotes her time to playing the guitar. On a fateful day, Bocchi meets the outgoing drummer Nijika Ijichi, who invites her to join Kessoku Band when their guitarist, Ikuyo Kita, flees before their first show. Soon after, Bocchi meets her final bandmate—the cool bassist Ryou Yamada.</item>

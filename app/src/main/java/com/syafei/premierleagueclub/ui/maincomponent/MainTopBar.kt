@@ -20,6 +20,7 @@ import androidx.navigation.compose.rememberNavController
 import com.syafei.premierleagueclub.R
 import com.syafei.premierleagueclub.ui.route.ScreenRoute
 
+//ini belum kepake
 @Composable
 fun MainTopBar(
     modifier: Modifier = Modifier,
@@ -54,6 +55,7 @@ fun MainTopBar(
                 }) {
                     Icon(
                         imageVector = Icons.Default.Person,
+                        tint = Color.White,
                         contentDescription = stringResource(
                             R.string.about
                         )
