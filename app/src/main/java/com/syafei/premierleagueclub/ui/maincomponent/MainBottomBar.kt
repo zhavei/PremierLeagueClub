@@ -35,7 +35,7 @@ fun MainBottomBar(
 
     BottomNavigation(
         modifier = modifier,
-        backgroundColor = MaterialTheme.colors.background,
+        backgroundColor = MaterialTheme.colors.surface,
         contentColor = MaterialTheme.colors.primary
     ) {
         navigationItem.map { item ->

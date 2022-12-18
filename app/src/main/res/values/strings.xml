@@ -1,7 +1,6 @@
 <resources>
     <string name="app_name">Premier League Club</string>
     <string name="empty">No Premier League Club</string>
-
     <string name="about_developer">Muhamad Syafeie</string>
     <string name="about_developer_email">zhavei.vei@gmail.com</string>
     <string name="detail_club">Club Detail</string>
@@ -67,7 +66,6 @@
         <item>https://live.staticflickr.com/65535/52569377499_396585de3e.jpg</item>
         <item>https://live.staticflickr.com/65535/52569377539_87ac68aa96_n.jpg</item>
         <item>https://live.staticflickr.com/65535/52569626853_e9b8128849_w.jpg</item>
-
         <item>https://www.si.com/.image/t_share/MTkyNDA2OTE3NDY3ODc0OTcz/imago1013681663h.jpg</item>
         <item>https://www.si.com/.image/t_share/MTkyNDA2OTE3NDY3ODc0OTcz/imago1013681663h.jpg</item>
         <item>https://www.si.com/.image/t_share/MTkyNDA2OTE3NDY3ODc0OTcz/imago1013681663h.jpg</item>

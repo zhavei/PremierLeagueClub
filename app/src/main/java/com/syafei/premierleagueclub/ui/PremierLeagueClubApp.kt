@@ -12,10 +12,12 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavHostController
+import androidx.navigation.NavType
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
+import androidx.navigation.navArgument
 import com.google.accompanist.systemuicontroller.rememberSystemUiController
 import com.syafei.premierleagueclub.R
 import com.syafei.premierleagueclub.ui.about.AboutScreen
@@ -96,6 +98,19 @@ fun PremierLeagueClubApp(
 
             composable(ScreenRoute.About.route) {
                 AboutScreen()
+            }
+
+
+
+            //details rou
+            composable(
+                route = ScreenRoute.DetailClub.route,
+                arguments = listOf(navArgument("clubName") {type = NavType.StringType}),
+            ) {
+                val name = it.arguments?.getString("clubName") ?: ""
+               /* ItemDetail(
+
+                )*/
             }
         }
 

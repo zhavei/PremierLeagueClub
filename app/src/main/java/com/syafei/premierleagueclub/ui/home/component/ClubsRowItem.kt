@@ -4,6 +4,7 @@ import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.material.Card
 import androidx.compose.material.MaterialTheme
 import androidx.compose.material.Text
@@ -12,8 +13,11 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Alignment.Companion.Center
 import androidx.compose.ui.Alignment.Companion.CenterHorizontally
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.Color.Companion.Yellow
 import androidx.compose.ui.layout.ContentScale
+import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
@@ -75,7 +79,8 @@ fun ClubsRowItems(
                     overflow = TextOverflow.Ellipsis,
                 )
             }
-            AsyncImage(
+
+            /*AsyncImage(
                 model = logoUrl,
                 contentDescription = "logo",
                 contentScale = ContentScale.Fit,
@@ -83,8 +88,27 @@ fun ClubsRowItems(
                     .padding(bottom = 55.dp)
                     .size(60.dp)
                     .align(Alignment.BottomCenter)
-            )
+                    .clip(CircleShape)
+            )*/
+            Box(
+                modifier = Modifier
+                    .padding(bottom = 55.dp)
+                    .size(70.dp)
+                    .align(Alignment.BottomCenter)
+                    .background(Color.White, shape = CircleShape),
+                contentAlignment = Center
+            ) {
+
+                AsyncImage(
+                    model = logoUrl,
+                    contentDescription = "logo",
+                    contentScale = ContentScale.Fit,
+                    modifier = Modifier.size(50.dp)
+                )
+            }
         }
+
+
     }
 }
 

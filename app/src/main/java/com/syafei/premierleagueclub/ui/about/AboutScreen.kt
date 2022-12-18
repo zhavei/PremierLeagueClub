@@ -1,7 +1,9 @@
 package com.syafei.premierleagueclub.ui.about
 
 import androidx.compose.foundation.Image
+import androidx.compose.foundation.horizontalScroll
 import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.material.MaterialTheme
 import androidx.compose.material.Text
@@ -16,21 +18,22 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import androidx.navigation.NavHostController
-import androidx.navigation.compose.rememberNavController
 import com.syafei.premierleagueclub.R
 import com.syafei.premierleagueclub.ui.theme.PremierLeagueClubTheme
+
 
 @Composable
 fun AboutScreen(
     modifier: Modifier = Modifier,
-    navController: NavHostController = rememberNavController()
 ) {
+    val scrollState = rememberScrollState()
 
     Column(
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Center,
-        modifier = modifier.fillMaxSize()
+        modifier = modifier
+            .fillMaxSize()
+            .horizontalScroll(scrollState)
     ) {
         Image(
             painter = painterResource(id = R.drawable.syafei),
@@ -54,6 +57,7 @@ fun AboutScreen(
         )
         Spacer(modifier = Modifier.height(16.dp))
     }
+
 }
 
 @Preview(showBackground = true)
