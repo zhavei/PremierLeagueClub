@@ -1,16 +1,22 @@
 package com.syafei.premierleagueclub.ui.details.components
 
+import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.shape.ZeroCornerSize
 import androidx.compose.material.Surface
 import androidx.compose.runtime.Composable
+import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
+import coil.compose.AsyncImage
 import com.syafei.premierleagueclub.data.model.ClubsModel
 import com.syafei.premierleagueclub.ui.theme.PremierLeagueClubTheme
 
@@ -43,11 +49,42 @@ fun TopContentDetails(
             )
         ) {
 
+            Box(
+                modifier = Modifier
+                    .size(70.dp)
+                    .align(Alignment.Center)
+                    .background(Color.White, shape = CircleShape),
+                contentAlignment = Alignment.Center
+            ) {
+
+                AsyncImage(
+                    model = logoUrl,
+                    contentDescription = "logo",
+                    contentScale = ContentScale.Fit,
+                    modifier = Modifier.size(50.dp)
+                )
+
+            }
+
+            /*AsyncImage(
+                model = logoUrl,
+                contentDescription = "logo",
+                contentScale = ContentScale.Fit,
+                modifier = Modifier
+                    .size(height = 16.dp, width = 16.dp)
+                    .drawBehind {
+                        drawCircle(color = Color.White, radius = 100f)
+                    }
+                    .clip(RoundedCornerShape(16.dp))
+            )*/
         }
     }
 }
 
-@Preview
+@Preview(
+    showBackground = true,
+    showSystemUi = true
+)
 @Composable
 fun TopDetailPreview() {
     PremierLeagueClubTheme {
