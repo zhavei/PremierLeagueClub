@@ -6,6 +6,7 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.runtime.*
 import androidx.compose.ui.Modifier
 import androidx.hilt.navigation.compose.hiltViewModel
+import com.syafei.premierleagueclub.ui.details.components.TopContentDetails
 
 @Composable
 fun ItemDetailScreen(
@@ -23,9 +24,21 @@ fun ItemDetailScreen(
                     modifier = modifier.fillMaxSize(),
                     verticalArrangement = Arrangement.SpaceBetween
                 ) {
+                    Column {
+                        TopContentDetails(
+                            logoUrl = logoUrl,
+                            name = name,
+                            nickName = nickName,
+                            founded = founded,
+                            ground = ground,
+                            league = league,
+                            description = description,
+                            backGround = backgroundLogoUrl
+                        )
 
+                        //=> nanti
 
-
+                    }
                 }
 
 

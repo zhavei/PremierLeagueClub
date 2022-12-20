@@ -21,6 +21,7 @@ import androidx.navigation.navArgument
 import com.google.accompanist.systemuicontroller.rememberSystemUiController
 import com.syafei.premierleagueclub.R
 import com.syafei.premierleagueclub.ui.about.AboutScreen
+import com.syafei.premierleagueclub.ui.details.ItemDetailScreen
 import com.syafei.premierleagueclub.ui.home.HomeScreen
 import com.syafei.premierleagueclub.ui.maincomponent.MainBottomBar
 import com.syafei.premierleagueclub.ui.route.ScreenRoute
@@ -91,8 +92,7 @@ fun PremierLeagueClubApp(
         ) {
             composable(ScreenRoute.Home.route) {
                 HomeScreen(onClicked = {
-                    //navController.navigate(ScreenRoute.DetailClub.createRoute(it))
-                    //trakir masih di sini, bootom navigation g ilang pas masuk screeen ini
+                    navController.navigate(ScreenRoute.DetailClub.createRoute(it))
                 })
             }
 
@@ -108,9 +108,9 @@ fun PremierLeagueClubApp(
                 arguments = listOf(navArgument("clubName") {type = NavType.StringType}),
             ) {
                 val name = it.arguments?.getString("clubName") ?: ""
-               /* ItemDetail(
-
-                )*/
+                ItemDetailScreen(
+                    name = name
+                )
             }
         }
 
