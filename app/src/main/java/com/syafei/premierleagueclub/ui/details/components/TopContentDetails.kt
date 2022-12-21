@@ -50,7 +50,6 @@ fun TopContentDetails(
                 bottomEnd = ZeroCornerSize
             )
         ) {
-
             Column {
                 Row {
 
@@ -65,7 +64,7 @@ fun TopContentDetails(
                             .verticalScroll(rememberScrollState())
                     )
                 }
-                Spacer(modifier = Modifier.height(2.dp))
+                Spacer(modifier = Modifier.height(10.dp))
                 Text(
                     text = description,
                     style = MaterialTheme.typography.h6,

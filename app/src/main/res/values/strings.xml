@@ -20,16 +20,16 @@
         <item>Everton</item>
         <item>Fulham</item>
         <item>Leeds United</item>
-        <item>AFC Bournemouth</item>
-        <item>Arsenal</item>
-        <item>Aston Villa</item>
-        <item>Brentford</item>
-        <item>Brighton and Hove Albion</item>
-        <item>Chelsea</item>
-        <item>Crystal Palace</item>
-        <item>Everton</item>
-        <item>Fulham</item>
-        <item>Leeds United</item>
+        <item>Leicester City</item>
+        <item>Liverpool</item>
+        <item>Manchester City</item>
+        <item>Manchester United</item>
+        <item>Newcastle United</item>
+        <item>Nottingham Forest</item>
+        <item>Southampton.</item>
+        <item>Tottenham Hotspur</item>
+        <item>West Ham United</item>
+        <item>Wolverhampton Wanderers</item>
     </string-array>
 
     <string-array name="logo_url">
@@ -44,16 +44,16 @@
         <item>https://live.staticflickr.com/65535/52575728455_875c6a1838_n.jpg</item>
         <item>https://live.staticflickr.com/65535/52575808033_71c6e42694_n.jpg</item>
 
-        <item>https://live.staticflickr.com/65535/52575728385_e5c0e785dd_w.jpg</item>
-        <item>https://live.staticflickr.com/65535/52575558464_b3c5548cb1.jpg</item>
-        <item>https://live.staticflickr.com/65535/52575274781_71d4d49a20_w.jpg</item>
-        <item>https://live.staticflickr.com/65535/52575728540_f13fb801a0_w.jpg</item>
-        <item>https://live.staticflickr.com/65535/52575274956_f0ebc2b730_w.jpg</item>
-        <item>https://live.staticflickr.com/65535/52575558594_ee3163a518_w.jpg</item>
-        <item>https://live.staticflickr.com/65535/52575558599_386b53da23_n.jpg</item>
-        <item>https://live.staticflickr.com/65535/52575274856_f32e2ea1b4_n.jpg</item>
-        <item>https://live.staticflickr.com/65535/52575728455_875c6a1838_n.jpg</item>
-        <item>https://live.staticflickr.com/65535/52575808033_71c6e42694_n.jpg</item>
+        <item>https://live.staticflickr.com/65535/52569576373_1b5f00ff42_n.jpg</item>
+        <item>https://live.staticflickr.com/65535/52569494030_69720e4f72_n.jpg</item>
+        <item>https://live.staticflickr.com/65535/52569576298_7fa2f60ff9_w.jpg</item>
+        <item>https://live.staticflickr.com/65535/52569050001_d843cc064b_w.jpg</item>
+        <item>https://live.staticflickr.com/65535/52568587822_c71275cdc2_w.jpg</item>
+        <item>https://live.staticflickr.com/65535/52569576223_b4fc72c7bb_n.jpg</item>
+        <item>https://live.staticflickr.com/65535/52568587782_6e6e7cbd61_n.jpg</item>
+        <item>https://live.staticflickr.com/65535/52569049951_be4fd995cd_n.jpg</item>
+        <item>https://live.staticflickr.com/65535/52569493810_a28511e1c6_n.jpg</item>
+        <item>https://live.staticflickr.com/65535/52569493785_15215b0270_w.jpg</item>
 
     </string-array>
 
@@ -68,16 +68,16 @@
         <item>https://live.staticflickr.com/65535/52569377499_396585de3e.jpg</item>
         <item>https://live.staticflickr.com/65535/52569377539_87ac68aa96_n.jpg</item>
         <item>https://live.staticflickr.com/65535/52569626853_e9b8128849_w.jpg</item>
-        <item>https://www.si.com/.image/t_share/MTkyNDA2OTE3NDY3ODc0OTcz/imago1013681663h.jpg</item>
-        <item>https://www.si.com/.image/t_share/MTkyNDA2OTE3NDY3ODc0OTcz/imago1013681663h.jpg</item>
-        <item>https://www.si.com/.image/t_share/MTkyNDA2OTE3NDY3ODc0OTcz/imago1013681663h.jpg</item>
-        <item>https://www.si.com/.image/t_share/MTkyNDA2OTE3NDY3ODc0OTcz/imago1013681663h.jpg</item>
-        <item>https://www.si.com/.image/t_share/MTkyNDA2OTE3NDY3ODc0OTcz/imago1013681663h.jpg</item>
-        <item>https://www.si.com/.image/t_share/MTkyNDA2OTE3NDY3ODc0OTcz/imago1013681663h.jpg</item>
-        <item>https://www.si.com/.image/t_share/MTkyNDA2OTE3NDY3ODc0OTcz/imago1013681663h.jpg</item>
-        <item>https://www.si.com/.image/t_share/MTkyNDA2OTE3NDY3ODc0OTcz/imago1013681663h.jpg</item>
-        <item>https://www.si.com/.image/t_share/MTkyNDA2OTE3NDY3ODc0OTcz/imago1013681663h.jpg</item>
-        <item>https://www.si.com/.image/t_share/MTkyNDA2OTE3NDY3ODc0OTcz/imago1013681663h.jpg</item>
+        <item>https://live.staticflickr.com/65535/52568638327_b2b579c492_n.jpg</item>
+        <item>https://live.staticflickr.com/65535/52568638362_010ca3fa83_n.jpg</item>
+        <item>https://live.staticflickr.com/65535/52569545535_daf4992acb_z.jpg</item>
+        <item>https://live.staticflickr.com/65535/52569099096_bb2d476bd3_z.jpg</item>
+        <item>https://live.staticflickr.com/65535/52569626618_9296a61713.jpg</item>
+        <item>https://live.staticflickr.com/65535/52569545170_880244f676_z.jpg</item>
+        <item>https://live.staticflickr.com/65535/52569099036_dc08584c81_z.jpg</item>
+        <item>https://live.staticflickr.com/65535/52569545085_f5af96f0fc_z.jpg</item>
+        <item>https://live.staticflickr.com/65535/52569377229_2267e93112_z.jpg</item>
+        <item>https://live.staticflickr.com/65535/52569626463_d646f59110_z.jpg</item>
     </string-array>
 
     <string-array name="nick_name">
@@ -141,16 +141,16 @@
         <item>Goodison Park</item>
         <item>Craven Cottage</item>
         <item>Elland Road</item>
-        <item>Vitality Stadium</item>
-        <item>Emirates Stadium</item>
-        <item>Emirates Stadium</item>
-        <item>Emirates Stadium</item>
-        <item>Emirates Stadium</item>
-        <item>Emirates Stadium</item>
-        <item>Emirates Stadium</item>
-        <item>Emirates Stadium</item>
-        <item>Emirates Stadium</item>
-        <item>Emirates Stadium</item>
+        <item>King Power Stadium</item>
+        <item>Anfield</item>
+        <item>Etihad Stadium</item>
+        <item> Old Trafford</item>
+        <item> St. James\' Park</item>
+        <item>The City Ground</item>
+        <item>St. Mary\'s Stadium</item>
+        <item>Tottenham Hotspur Stadium</item>
+        <item>London Stadium</item>
+        <item> Molineux Stadium</item>
     </string-array>
 
     <string-array name="capacity">

@@ -22,6 +22,7 @@ import com.google.accompanist.systemuicontroller.rememberSystemUiController
 import com.syafei.premierleagueclub.R
 import com.syafei.premierleagueclub.ui.about.AboutScreen
 import com.syafei.premierleagueclub.ui.details.ItemDetailScreen
+import com.syafei.premierleagueclub.ui.favorite.FavoriteScreen
 import com.syafei.premierleagueclub.ui.home.HomeScreen
 import com.syafei.premierleagueclub.ui.maincomponent.MainBottomBar
 import com.syafei.premierleagueclub.ui.route.ScreenRoute
@@ -50,7 +51,11 @@ fun PremierLeagueClubApp(
                         modifier = modifier.padding(6.dp)
                     )
                 },
-                navigationIcon = if (currentRoute != ScreenRoute.Home.route) ({
+                navigationIcon = if (
+                    currentRoute != ScreenRoute.Home.route
+                    &&
+                    currentRoute != ScreenRoute.Favorite.route
+                ) ({
                     IconButton(onClick = { navController.navigateUp() }) {
                         Icon(
                             imageVector = Icons.Default.ArrowBack,
@@ -58,6 +63,7 @@ fun PremierLeagueClubApp(
                         )
                     }
                 }) else null,
+
 
                 actions = {
                     if (currentRoute == ScreenRoute.Home.route) {
@@ -79,7 +85,11 @@ fun PremierLeagueClubApp(
         },
         modifier = modifier,
         bottomBar = {
-            if (currentRoute != ScreenRoute.DetailClub.route) {
+            if (
+                currentRoute != ScreenRoute.DetailClub.route
+                &&
+                currentRoute != ScreenRoute.About.route
+            ) {
                 MainBottomBar(navController = navController)
             }
         },
@@ -96,16 +106,20 @@ fun PremierLeagueClubApp(
                 })
             }
 
+            composable(ScreenRoute.Favorite.route) {
+                FavoriteScreen(onCLick = {
+                    navController.navigate(ScreenRoute.DetailClub.createRoute(it))
+                })
+            }
+
             composable(ScreenRoute.About.route) {
                 AboutScreen()
             }
 
-
-
-            //details rou
+            //details route
             composable(
                 route = ScreenRoute.DetailClub.route,
-                arguments = listOf(navArgument("clubName") {type = NavType.StringType}),
+                arguments = listOf(navArgument("clubName") { type = NavType.StringType }),
             ) {
                 val name = it.arguments?.getString("clubName") ?: ""
                 ItemDetailScreen(
@@ -113,7 +127,5 @@ fun PremierLeagueClubApp(
                 )
             }
         }
-
     }
-
 }

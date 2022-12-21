@@ -51,7 +51,6 @@ fun ClubsRowItems(
                     .size(250.dp)
             )
 
-
             Column(
                 modifier = Modifier
                     .align(Alignment.BottomCenter)
@@ -80,16 +79,6 @@ fun ClubsRowItems(
                 )
             }
 
-            /*AsyncImage(
-                model = logoUrl,
-                contentDescription = "logo",
-                contentScale = ContentScale.Fit,
-                modifier = Modifier
-                    .padding(bottom = 55.dp)
-                    .size(60.dp)
-                    .align(Alignment.BottomCenter)
-                    .clip(CircleShape)
-            )*/
             Box(
                 modifier = Modifier
                     .padding(bottom = 55.dp)
@@ -107,8 +96,6 @@ fun ClubsRowItems(
                 )
             }
         }
-
-
     }
 }
 
@@ -137,39 +124,4 @@ fun RowItems() {
               logoUrl = previewItem.logoUrl,
               backgroundLogoUrl = previewItem.backgroundLogoUrl, onClicked = {})
       }
-
-/*Column {
-    val previewItem = ClubsModel(
-        clubName = "man United",
-        logoUrl = "https://toppng.com/uploads/preview/manchester-united-emblem-manchester-united-logo-dream-league-soccer-2018-11562942624odllvif9gl.png",
-        nickName = "red Devils",
-        founded = 2022,
-        ground = "old traford",
-        capacity = 12330,
-        league = "premiere leauge",
-        description = "String",
-        backgroundLogoUrl = "https://1.bp.blogspot.com/-cZirkTPmvp0/YJ1T3-rOsKI/AAAAAAAAAac/X7xermnzVoUz-BqMiCJOJ3pKMcMZXETYQCLcBGAsYHQ/s512/MAN.png"
-    )
-
-    //harusny gridlazy
-    LazyColumn(
-        modifier = Modifier.fillMaxSize(),
-        contentPadding = PaddingValues(8.dp),
-        verticalArrangement = Arrangement.spacedBy(8.dp)
-    ) {
-
-        for (i in 1..10) {
-            item {
-                ClubsRowItems(
-                    clubName = previewItem.clubName,
-                    ground = previewItem.ground,
-                    logoUrl = previewItem.logoUrl,
-                    backgroundLogoUrl = previewItem.backgroundLogoUrl,
-                    onClicked = {}
-                )
-            }
-        }
-    }
-}*/
-
 }

@@ -20,5 +20,4 @@ data class ClubsModel(
     val description: String,
     var isFavorite: Boolean = false,
     val backgroundLogoUrl: String,
-
     ) : Parcelable

@@ -29,14 +29,14 @@ fun MainBottomBar(
         NavigationItem(
             title = "Favorite",
             icon = Icons.Default.Favorite,
-            screenRoute = ScreenRoute.Home
+            screenRoute = ScreenRoute.Favorite
         )
     )
 
     BottomNavigation(
         modifier = modifier,
-        backgroundColor = MaterialTheme.colors.surface,
-        contentColor = MaterialTheme.colors.primary
+        backgroundColor = Color.DarkGray,
+        contentColor = Color.White
     ) {
         navigationItem.map { item ->
             BottomNavigationItem(
@@ -44,18 +44,17 @@ fun MainBottomBar(
                     Icon(
                         imageVector = item.icon,
                         contentDescription = item.title,
-                        tint = Color.DarkGray
+                        tint = Color.White
                     )
                 },
                 label =
                 {
                     Text(
                         item.title,
-                        color = Color.DarkGray
+                        color = Color.White
                     )
                 },
-                selected =
-                currentRoute == item.screenRoute.route,
+                selected = currentRoute == item.screenRoute.route,
                 unselectedContentColor = Color.White,
                 onClick = {
                     navController.navigate(item.screenRoute.route) {
@@ -65,7 +64,7 @@ fun MainBottomBar(
                         restoreState = true
                         launchSingleTop = true
                     }
-                },
+                }
             )
         }
     }

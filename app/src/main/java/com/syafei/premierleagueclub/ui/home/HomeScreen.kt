@@ -35,7 +35,5 @@ fun HomeScreen(
             onClicked = {
             onClicked(it)
         })
-
     }
-
 }
