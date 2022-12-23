@@ -3,6 +3,7 @@ package com.syafei.premierleagueclub.ui.route
 import com.syafei.premierleagueclub.R
 
 sealed class ScreenRoute(val route: String) {
+    object SplashScreen : ScreenRoute("splash_screen")
     object Home : ScreenRoute("home")
     object Favorite : ScreenRoute("favorite")
     object About : ScreenRoute("about")
@@ -17,6 +18,7 @@ sealed class ScreenRoute(val route: String) {
                 Favorite.route -> R.string.favorite
                 DetailClub.route -> R.string.detail_club
                 About.route -> R.string.about
+                SplashScreen.route -> R.string.splash
                 else -> R.string.app_name
             }
         }

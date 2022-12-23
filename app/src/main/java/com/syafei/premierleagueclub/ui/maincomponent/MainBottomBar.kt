@@ -1,5 +1,7 @@
 package com.syafei.premierleagueclub.ui.maincomponent
 
+import android.os.Build
+import androidx.annotation.RequiresApi
 import androidx.compose.material.*
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Favorite
@@ -63,7 +65,9 @@ fun MainBottomBar(
                         }
                         restoreState = true
                         launchSingleTop = true
+
                     }
+
                 }
             )
         }

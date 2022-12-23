@@ -5,6 +5,7 @@
     <string name="about_developer_email">zhavei.vei@gmail.com</string>
     <string name="detail_club">Club Detail</string>
     <string name="about">About Page</string>
+    <string name="splash" />
     <string name="about_photo_content">Profile photo</string>
     <string name="favorite">Favorite</string>
     <string name="back">Go Back</string>
