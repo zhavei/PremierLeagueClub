@@ -72,7 +72,7 @@ fun SplashScreenScreen(navController: NavHostController) {
                 .drawBehind {
                     drawCircle(
                         color = Color.White,
-                        radius = 300f
+                        radius = 100.dp.toPx()
                     )
                 }
         )

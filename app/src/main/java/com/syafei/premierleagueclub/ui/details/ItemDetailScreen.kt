@@ -26,7 +26,12 @@ fun ItemDetailScreen(
     modifier: Modifier = Modifier,
     viewModel: DetailViewModel = hiltViewModel()
 ) {
-    viewModel.getClubByName(name)
+
+    LaunchedEffect(true) {
+        viewModel.getClubByName(name)
+
+    }
+
     when (val clubResult = viewModel.clubViewModel.value) {
         is Result.Exist -> {
             with(clubResult.data) {
